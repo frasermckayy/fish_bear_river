@@ -4,8 +4,11 @@ class Bear
     @bear_name = bear_name
     @stomach_contents = stomach_contents
   end
-  
 
+  def bear_name()
+    return @bear_name
+  end
+  
 
 
 end
