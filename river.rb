@@ -1,10 +1,15 @@
 class River
 
-def initialize(name, no_of_fish)
+  def initialize(name, no_of_fish)
 
-  @name = name
-  @no_of_fish = no_of_fish
-end
+    @name = name
+    @no_of_fish = no_of_fish
+  end
+
+
+  def river_name()
+    return @name
+  end
 
 
 end
