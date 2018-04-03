@@ -17,4 +17,10 @@ class Bear
     food = river.lose_fish
     @stomach_contents.push(food)
   end
+
+def roar()
+  return "Rooooar"
+end
+
+
 end
