@@ -18,4 +18,8 @@ def add_fish(fish)
 @no_of_fish.push(fish)
 end
 
+def lose_fish()
+  @no_of_fish.pop()
+end 
+
 end
