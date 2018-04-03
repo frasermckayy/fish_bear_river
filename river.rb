@@ -20,6 +20,6 @@ end
 
 def lose_fish()
   @no_of_fish.pop()
-end 
+end
 
 end
