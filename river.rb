@@ -11,5 +11,9 @@ class River
     return @name
   end
 
+  def fish_in_river()
+    return @no_of_fish
+  end
+
 
 end
